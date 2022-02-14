@@ -1,4 +1,4 @@
-stdlib.balanceOf does not return precision past javascript number type
+stdlib.balanceOf does not return precision past javascript number type. BalanceOf should return 18446744073709551615 as a bigNumber, but instead returns 18446744073709552000
 
 This is an example of an account with a 0 decimal asset () and a 19 decimal asset () and showcases how the stdlib cannot get their full precision level.
 
